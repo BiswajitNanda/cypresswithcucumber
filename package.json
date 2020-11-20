@@ -1,0 +1,17 @@
+{
+  "name": "CypressDemo",
+  "version": "1.0.0",
+  "dependencies": {
+    "@apple/appleconnect-system": "^1.0.4",
+    "@apple/appleconnect-totp": "^1.0.1",
+    "cypress": "^5.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "scripts": {
+    "test:e2e": "cypress open",
+    "test:e2e:ci": "./node_modules/.bin/cypress-tags run -e TAGS=@execution"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

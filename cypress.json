@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://practiceselenium.com",
+  "testFiles": ["**/*.feature","**/*.js"],
+  "viewportWidth": 1500,
+  "viewportHeight": 1500,
+  "chromeWebSecurity": false
+
+}
